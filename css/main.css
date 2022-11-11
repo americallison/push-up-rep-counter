@@ -1,0 +1,139 @@
+/* Author: Americ Allison */
+/* Date: November 11, 2022 */
+
+body {
+    margin:auto;
+    background-image: url('pushup.jpg');
+    background-size: cover;
+    text-align: center;
+    background-repeat: repeat;
+    font-family: cursive;
+}
+
+nav {
+    text-align: center;
+    background-color: #003040;
+    padding: 15px;
+    border-bottom: 8px solid gray;
+    opacity: 0.7;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+ a {
+    text-decoration: none;
+    color:#FCBF49;
+    font-size: 18px;
+    
+}
+
+.breadcrumb {
+    display: flex;
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    padding: 2px;
+    margin: 1px;
+    color:white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color:whitesmoke;
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+.main-container {
+    text-align: center;
+    margin: 20px 300px;
+    padding: 6px;
+    border-radius: 20px;
+    background: rgb(224, 110, 33, 0.06);
+}
+
+.container-1 > h1 {
+    color: #f5f7f8;
+}
+
+.container-1 > h3 {
+    color: white;
+    background: rgb(120, 89, 100, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.container-2 {
+    border-bottom: 2px dotted #264659;
+}
+
+button {
+    padding: 20px;
+    margin: 0px 5px;
+    border: none;
+    font-weight: bold;
+} 
+
+.add_rep_btn {
+    color:#FCBF49;
+    background-color: #264659;
+    border-radius: 12px;
+}
+
+.total-rep {
+    color: #FCBF49;
+    font-family:cursive;
+}
+
+.add_rep_btn:hover {
+    padding: 22px;
+    transition: 0.3s;
+}
+
+.count {
+    font-size:x-large;
+    color: whitesmoke;
+    background: rgba(161, 56, 10, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.about {
+    font-size: large;
+    color: #f5f7f8;
+    background: rgba(27, 21, 17, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.push_up_set {
+    color:#f5f7f8;
+    font-size:medium;
+}
+
+.date_ {
+    color:#FCBF49;
+}
+
+.save_set_btn {
+    color:#eae2b7;
+    background-color: #9A031E;
+    border-radius: 12px;
+}
+
+.save_set_btn:hover {
+    padding: 22px;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 786px) {
+    .main-container {
+        margin: auto 4px;
+    }
+}
+    

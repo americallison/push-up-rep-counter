@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="push up, counter">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Push up rep counter</title>
+</head>
+<body>
+    
+    <nav class="main-nav">
+        <ul>
+            <li><a href="repcounter.html">Counter</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <section class="main-container">
+    <div class="container">
+        <div class="container-1">
+        <h1>PUSH UP REP COUNTER</h1>
+        <h3>Reps per set:</h3>
+        <p class="count" id="counter">0</p>
+    </div>
+
+    <div class="container-2">
+        <span><button class="add_rep_btn" id="add-rep" onclick="add_rep()">ADD REP</button></span>
+        <span><button class="save_set_btn" id="save-set" onclick="save_set()">SAVE SET</button></span>        
+        <p class="push_up_set" id="pushupset"></p>
+    </div>
+
+    <h4 class="total-rep" id="total-reps"></h4>
+    
+</div>
+
+    <p class="date_" id="my_date_"></p>
+    
+    </section>
+
+    <script>
+        let my_date = new Date(); 
+        document.getElementById('my_date_').innerHTML = my_date.toDateString();
+     </script>
+     <script src="js/main.js"></script>
+</body>
+
+</html>
